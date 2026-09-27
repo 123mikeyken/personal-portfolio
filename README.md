@@ -1,75 +1,75 @@
-# React + TypeScript + Vite
+# Michael Kendrick — Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website created as part of the Game Programming program at Centennial College.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio showcases my education, game development projects, programming skills, and services. The website was built with React and TypeScript and uses a responsive interface designed around a game-development/technical visual style.
 
-## React Compiler
+## Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Home** — Introduction and portfolio overview
+* **About Me** — Personal information, profile image, and resume
+* **Projects** — Selected game development projects
+* **Education** — Academic background
+* **Services** — Programming and development services
+* **Contact Me** — Contact information and interactive contact form
 
-## Expanding the ESLint configuration
+## Featured Projects
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Keyboard Kickers
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+A game concept focused on fast-paced keyboard-based gameplay.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 2.5D FPS
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+A first-person shooter project developed with a combination of 2D and 3D elements.
 
+### Vector Art Game
+
+A game prototype using a vector-art visual style.
+
+## Technologies
+
+* React
+* TypeScript
+* React Router
+* Tailwind CSS
+* Vite
+* HTML
+* CSS
+* Git & GitHub
+
+## Running the Project
+
+Install the project dependencies:
+
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Start the development server:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm run dev
 ```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Run the code linter:
+
+```bash
+npm run lint
+```
+
+## Student
+
+**Michael Kendrick**
+
+Game Programming
+Centennial College
+2025–2028
